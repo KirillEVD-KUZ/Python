@@ -1,4 +1,7 @@
-# map(функция, список)
-# Применяет некоторую функцию к каждому элементу списка
-numbers = list(map(int, input().split()))
-print(numbers)
+def print_seq(begin, end):
+    for i in range(begin, end + 1):
+        print(f'{i} ', end='')
+    print()
+
+print_seq(45, 200)
+print_seq(4, 20)
